@@ -3,10 +3,10 @@ body{
 }
 
 header {
-	background:brown;
+	background:gray;
 	margin: 0;
 	padding: 15px 15px 0px 15px;
-	color: yellow;	
+	color: white;	
 }
 
 header h1{
