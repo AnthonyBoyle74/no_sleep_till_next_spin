@@ -19,7 +19,40 @@
 				</ul>
 			</nav>
 		</header>
+		<p> </p>
+		<!-- Fitness Trainer form app --> 
+<!-- create HTML form --> 
+<!-- Heading Text --> 
+<H3>Cycle & Run Trainer</H3>
+<!-- Send Results to script  --> 
+<form action="trainer_script.php" method="POST">
+<p>Week Number: <input type="text" name="week" size="1"/></p>
+<p>Weight in kg: <input type="text" name="weight" size="1"/></p>
+<!-- Text fields for cycle input --> 
+<H5>Cycle Data</H5>
+<p>20 min Cycle Power: <input type="text" name="20min_bike_power" size="1"/></p>
+<p>20 min Cycle HR: <input type="text" name="20min_bike_hr" size="1"/></p>
+<!--<H5>Hill Cycle Data</H5 -->
+<p>Hill Climb Time: <input type="text" name="time_hill_cycle" size="1"/></p>
+<p>Hill Climb HR: <input type="text" name="hr_hill_cycle" size="1"/></p>
+<!-- Text fields for run input --> 
+<H5>Run Data</H5>
+<p>17k Trail Time: <input type="text" name="time_trail" size="1"/></p>
+<p>17k Trail HR: <input type="text" name="hr_trail" size="1"/></p>
+<!-- Text fields for hill run input --> 
+<!--<H5>Hill Run Data</H5> -->
+<p>Meelick Car Park Time: <input type="text" name="time_hill_run_a" size="1"/></p>
+<p>Meelick Car Park HR: <input type="text" name="hr_hill_run_a" size="1"/></p>
+<p>Steep Bit Time: <input type="text" name="time_hill_run_b" size="1"/></p>
+<p>Steep Bit HR: <input type="text" name="hr_hill_run_b" size="1"/></p>
+<p>Hamburger Hill Time: <input type="text" name="time_hill_run_c" size="1"/></p>
+<p>Hamburger Hill HR: <input type="text" name="hr_hill_run_c" size="1"/></p>
+<p>Keeper Ascent Time(6.54km/7%): <input type="text" name="time_mountain_run" size="1"/></p>
+<p>Keeper Ascent HR: <input type="text" name="hr_mountain_run" size="1"/></p>
+<!-- submit button --> 
+<input type="submit" name="submit" value="Submit Data"/>		
 		
+		<p> </p>
 		<footer>@ 2019 Hungry Hoot Design.</footer>
 
 	</body>
