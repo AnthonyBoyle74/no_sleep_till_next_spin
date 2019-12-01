@@ -22,7 +22,7 @@ nav ul{
 }
 
 nav ul li{
-	background: orange;
+	background: gray;
 	display: inline-block;
 	list-style-type: none;
 	padding: 5px 15px;
